@@ -1,0 +1,5 @@
+//wait until the dom is loaded
+$(document).ready(function () {
+    $("#header").append("<div class='wrapper'><a href='../'><h1>Jenna Rose Thompson</h1><h2>Photographer <span class='script'>&amp;</span> Designer</h2></a><nav><ul class='primary-nav'><li class='focus-1'><a href='../'>Home</a></li><li class='focus-2'><a href='../people-landing'>People</a><ul class='secondary-nav'><li><a href='../people/couples'>Couples</a></li><li><a href='../people/portraits'>Portraits</a></li></ul></li><li class='focus-3'><a href='../travel-landing'>Travel</a><ul class='secondary-nav'><li><a href='../travel/canada'>Alberta, Canada</a></li><li><a href='../travel/italy'>Italy</a></li><li><a href='../travel/san-francisco'>San Francisco</a></li></ul></li><li class='focus-5'><a href='../other'>Other</a></li><li class='focus-4'><a href='../jenna'>Jenna</a></li></ul><div class='divider'></div></nav></div>");
+    $("#footer").append("<div class='footer-text wrapper'>Site Design by Jenna Rose Thompson <strong>&mdash;</strong> All Images by Jenna Rose Thompson</div>");
+});
